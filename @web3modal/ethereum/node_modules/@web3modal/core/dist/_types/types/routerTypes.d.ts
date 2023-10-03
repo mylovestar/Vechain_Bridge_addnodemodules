@@ -1,0 +1,1 @@
+export declare type RouterView = 'CoinbaseExtensionConnector' | 'CoinbaseMobileConnector' | 'ConnectWallet' | 'GetWallet' | 'InjectedConnector' | 'LedgerDesktopConnector' | 'MetaMaskConnector' | 'SelectNetwork' | 'WalletConnectConnector' | 'WalletExplorer';

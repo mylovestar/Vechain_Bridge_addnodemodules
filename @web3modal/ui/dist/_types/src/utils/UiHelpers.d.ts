@@ -1,0 +1,11 @@
+import type { LitElement } from 'lit';
+export declare const MOBILE_BREAKPOINT = 600;
+export declare function getShadowRootElement(root: LitElement, selector: string): Element;
+export declare function getConditionalValue<T extends string>(value: T | T[], condition: boolean[] | boolean): T;
+export declare function getWalletIcon(name: string): string;
+export declare function getWalletFirstName(fullName: string): string;
+export declare function getDefaultWalletNames(): string[];
+export declare function defaultWalletImages(): string[];
+export declare function isMobileAnimation(): boolean;
+export declare function preloadImage(src: string): Promise<unknown>;
+export declare function getErrorMessage(err: unknown): string;
